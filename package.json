@@ -1,0 +1,24 @@
+{
+  "name": "cspell-wordlist",
+  "version": "1.0.0",
+  "description": "\"Lists of Words for cSpell Spell Checker\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build-all": "cspell-tools compile ./raw-dictionaries/*.txt -n -o ./dictionaries",
+    "build": "cspell-tools compile -n -o ./dictionaries"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason3S/cSpell-WordLists.git"
+  },
+  "author": "Jason Dent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jason3S/cSpell-WordLists/issues"
+  },
+  "homepage": "https://github.com/Jason3S/cSpell-WordLists#readme",
+  "devDependencies": {
+    "cspell-tools": "git+https://github.com/Jason3S/cSpell-Tools.git"
+  }
+}
