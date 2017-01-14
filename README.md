@@ -27,4 +27,12 @@ To build a single dictionary.
 npm run build ./raw-dictionaries/php.txt
 ```
 
+## Building a Hunspell Dictionary
+
+1. Extract the words: <br/>
+   `node_modules/.bin/hunspell-reader words ./hunspell/nl.dic -o ./raw-dictionaries/wordsNl.txt`
+2. Normalize the word list: <br />
+   `npm run build ./raw-dictionaries/wordsNl.txt`
+
+It can take a long time to process all the words.
 
