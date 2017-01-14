@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "build-all": "cspell-tools compile ./raw-dictionaries/*.txt -n -o ./dictionaries",
-    "build": "cspell-tools compile -n -o ./dictionaries"
+    "build": "cspell-tools compile -n -o ./dictionaries",
+    "hunspell-reader": "hunspell-reader"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/Jason3S/cSpell-WordLists#readme",
   "devDependencies": {
-    "cspell-tools": "git+https://github.com/Jason3S/cSpell-Tools.git"
+    "cspell-tools": "git+https://github.com/Jason3S/cSpell-Tools.git",
+    "hunspell-reader": "git+https://github.com/Jason3S/hunspell-reader.git"
   }
 }
