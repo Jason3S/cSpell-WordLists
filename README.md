@@ -5,7 +5,7 @@ Word Lists that can be used with the cSpell Spelling Checker
 To be able to convert raw dictionary files, you have to set things up.
 
 ```
-npm run install
+npm install
 ```
 
 ## Raw Dictionaries
