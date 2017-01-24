@@ -14,7 +14,7 @@ These are the source word lists.  Put new files here: `./raw-dictionaries`
 
 ## Processing Raw Dictionaries
 
-To build all the raw dic
+To build all the dictionaries:
 
 ```sh
 npm run build-all
