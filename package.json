@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Jason3S/cSpell-WordLists#readme",
   "devDependencies": {
-    "cspell-tools": "git+https://github.com/Jason3S/cSpell-Tools.git",
-    "hunspell-reader": "git+https://github.com/Jason3S/hunspell-reader.git"
+    "cspell-tools": "^1.0.5",
+    "hunspell-reader": "^1.0.0"
   }
 }
